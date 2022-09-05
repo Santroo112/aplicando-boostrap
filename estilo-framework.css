@@ -1,9 +1,59 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+label {
+    color: #333;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+    }
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}
 .bg-cards{
     background-color: rgba(160, 157, 157, 0.616)
 }
 
 .txt-footer{
     color: rgba(160, 157, 157, 0.616);
+}
+div.noticia {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #449;
+    color: #fff;
+    padding: 15px;
+}
+
+div.noticia img.izquierda {
+    float: left;
+    margin-right: 15px;
+}
+
+div.noticia img.derecha {
+    float: right;
+    margin-left: 15px;
+}
+
+div.reset {
+    clear: both;
 }
 
 @media screen and (min-width: 1056px) and (max-width: 1425px){

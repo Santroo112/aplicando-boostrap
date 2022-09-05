@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzera Bosstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo-framework.css">
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container-fluid fw-bold">
+            <a class="navbar-brand fw-bold" href="#">PizzeriaCheff</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Nuestra cocina
+                </a>
+                <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Empanadas</a></li>
+                    <li><a class="dropdown-item" href="#">Pizzas</a></li>
+                    <li><a class="dropdown-item" href="#">Bebidas</a></li>
+                    
+                </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                    </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2 form-control-sm" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-dark" type="submit"><span class="iconify" data-icon="bi:search"></span></button>
+            </form>
+            </div>
+        </div>
+        </nav>
+    </header>
+<div class="noticia">
+    <h1>¿De dónde surge nuestra receta?</h1>
+    
+    <iframe src="https://player.vimeo.com/video/70646068?h=4b94222814" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/70646068">Nuestra Receta - PizzaCheff</a> from <a href="https://vimeo.com/losinmortales">PizzaCheff</a>.</p>
+    <aside>Tiene sus orígenes en Italia, mas precisamente Castronovo, una ciudad cercana a Napoles (donde fue creada por primera vez la pizza). Aquí surge uno de los personajes más importantes de nuestra historia, Doña Rosa, una mujer con cierto encanto y habilidad por las artes culinarias italianas y especialmente por la pizza.</aside>
+    <div class="reset"></div>
+</div>
+
+<div class="noticia">
+    <h1>DONDE NOS ENCONTRAS</h1>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6566.607028924642!2d-58.40330877396714!3d-34.621769521819296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccae2775cf855%3A0x1f3d335cb6cf2c41!2sHumberto%201!5e0!3m2!1ses!2sar!4v1662239983922!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="reset"></div>
+</div>
+
+<div class="noticia">
+    <aside>Las imágenes fueron tomadas de DevinatArt y los créditos son de sus respectivos autores. Gracias.</aside>
+    <div class="reset"></div>
+</div>
+<div class="container">
+    <div class=" text-center mt-5 ">
+
+        <h1 >CONTACTO</h1>
+            
+        
+    </div>
+
+
+<div class="row ">
+<div class="col-lg-7 mx-auto">
+    <div class="card mt-2 mx-auto p-4 bg-light">
+        <div class="card-body bg-light">
+
+        <div class = "container">
+                    <form id="contact-form" role="form">
+
+        
+
+        <div class="controls">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_name">Nombre *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                        
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_lastname">Apellido *</label>
+                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_email">Email *</label>
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                        
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_need">Mensaje *</label>
+                        <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                            <option value="" selected disabled>--Select Your Issue--</option>
+                            <option >Request Invoice for order</option>
+                            <option >Request order status</option>
+                            <option >Haven't received cashback yet</option>
+                            <option >Other</option>
+                        </select>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="form_message">Message *</label>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea
+                            >
+                        </div>
+
+                    </div>
+
+
+                <div class="col-md-12">
+                    
+                    <input type="submit" class="btn btn-success btn-send  pt-2 btn-block
+                        " value="Send Message" >
+                
+            </div>
+      
+            </div>
+
+
+    </div>
+     </form>
+    </div>
+        </div>
+
+
+</div>
+    <!-- /.8 -->
+
+</div>
+<!-- /.row-->
+</div>
+</div>
+
+<footer>
+    <div class="container-fluid bg-black txt-footer py-1 mt-4 d-flex flex-column justify-content-center align-items-center gap-0.5">
+        <div class="fw-bold fs-1 pt-2">
+            <p>PizzaCheff</p>
+        </div>
+        <div>
+            <ul class="list-inline fs-3">
+            <li class="list-inline-item"><span
+                class="iconify"
+                data-icon="mdi:facebook"
+            ></span></li>
+            <li class="list-inline-item"> <span
+                class="iconify"
+                data-icon="mdi:instagram"
+            ></span></li>
+            <li class="list-inline-item"><span
+                class="iconify"
+                data-icon="mdi:whatsapp"
+            ></span></li>
+            </ul>
+        </div>
+        <div class="fs-6 pt-3">
+            <p>&copy; PizzaCheff Todos los derechos reservados </p>
+        </div>
+    </div>
+    
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+<body>
+    
+</body>
+</html>
