@@ -1,0 +1,13 @@
+.bg-cards{
+    background-color: rgba(160, 157, 157, 0.616)
+}
+
+.txt-footer{
+    color: rgba(160, 157, 157, 0.616);
+}
+
+@media screen and (min-width: 1056px) and (max-width: 1425px){
+    .card{
+        width:32% !important;
+    }
+}
