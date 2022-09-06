@@ -56,6 +56,17 @@ div.reset {
     clear: both;
 }
 
+.textColums{
+    column-width: auto;
+    
+}
+img{
+    width: 100%;
+}
+.iqualColums{
+    border:1px solid  black;
+}
+
 @media screen and (min-width: 1056px) and (max-width: 1425px){
     .card{
         width:32% !important;
